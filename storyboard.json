@@ -1,0 +1,5407 @@
+{
+ "versao": 1,
+ "titulo": "E se a Lua sumisse?",
+ "formato": {
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30
+ },
+ "duracao": 110.0,
+ "audio": "narracao.mp3",
+ "palavras": "palavras.json",
+ "legendas": {
+  "ativo": true,
+  "corDestaque": "#ffd60a"
+ },
+ "ambiente": {
+  "horario": "tarde",
+  "chao": "grama",
+  "fundo": "campo"
+ },
+ "cenas": [
+  {
+   "inicio": 0,
+   "fim": 4.57,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       5.5,
+       5.5,
+       5.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     }
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 0.0,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 0.6,
+       "ate": 4.57
+      },
+      {
+       "clip": "talk",
+       "de": 0.0,
+       "ate": 4.57,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "textos": [
+    {
+     "texto": "E SE A LUA SUMISSE?",
+     "de": 0.1,
+     "ate": 4.57,
+     "estilo": "titulo"
+    }
+   ]
+  },
+  {
+   "inicio": 4.57,
+   "fim": 9.14,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "sol",
+     "asset": "forma",
+     "pos": [
+      0,
+      19,
+      -60
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       8,
+       8,
+       8
+      ],
+      "cor": "#ffd84a",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.02
+     }
+    },
+    {
+     "id": "terra",
+     "asset": "forma",
+     "pos": [
+      -7,
+      17,
+      -50
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       2.6,
+       2.6,
+       2.6
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "pos": [
+       [
+        4.57,
+        [
+         -7,
+         17,
+         -50
+        ]
+       ],
+       [
+        6.08,
+        [
+         0,
+         15,
+         -47
+        ]
+       ],
+       [
+        7.59,
+        [
+         7,
+         17,
+         -50
+        ]
+       ],
+       [
+        9.14,
+        [
+         0,
+         20,
+         -58
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      -4.6,
+      17.8,
+      -50
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#d9d6c8",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pos": [
+       [
+        4.57,
+        [
+         -4.6,
+         17.8,
+         -50
+        ]
+       ],
+       [
+        6.08,
+        [
+         2.4,
+         15.8,
+         -47
+        ]
+       ],
+       [
+        7.59,
+        [
+         9.4,
+         17.8,
+         -50
+        ]
+       ],
+       [
+        9.14,
+        [
+         2.4,
+         20.8,
+         -58
+        ]
+       ]
+      ]
+     },
+     "some": 6.63
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 4.57,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 4.67,
+       "ate": 5.87
+      },
+      {
+       "clip": "nod",
+       "de": 7.08,
+       "ate": 9.14
+      },
+      {
+       "clip": "talk",
+       "de": 4.57,
+       "ate": 9.14,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   }
+  },
+  {
+   "inicio": 9.14,
+   "fim": 13.36,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        9.14,
+        23.5
+       ],
+       [
+        13.36,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 9.14,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "read_clipboard",
+       "de": 9.14,
+       "ate": 13.36
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 9.14,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "think",
+       "de": 9.14,
+       "ate": 13.36
+      },
+      {
+       "clip": "talk",
+       "de": 9.14,
+       "ate": 13.36,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      9.5
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.4
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   }
+  },
+  {
+   "inicio": 13.36,
+   "fim": 18.65,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6.5,
+       6.5,
+       6.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     }
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "menina",
+     "preset": "menina",
+     "pos": [
+      -0.9,
+      0,
+      0.6
+     ],
+     "viraPara": [
+      {
+       "em": 13.36,
+       "alvo": [
+        0,
+        -52
+       ]
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 13.66,
+       "ate": 18.65
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0.9,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 13.36,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "talk",
+       "de": 13.36,
+       "ate": 18.65,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "fluxos": [
+    {
+     "material": "luz",
+     "origem": {
+      "ancora": "lua",
+      "desloca": [
+       0,
+       -2,
+       0
+      ]
+     },
+     "destino": [
+      0,
+      1.2,
+      0
+     ],
+     "taxa": 25,
+     "dispersao": 1.2,
+     "de": 13.36,
+     "ate": 18.65
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "transicao": "flash"
+  },
+  {
+   "inicio": 18.65,
+   "fim": 22.86,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6.5,
+       6.5,
+       6.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     },
+     "some": 19.55
+    },
+    {
+     "id": "est0",
+     "asset": "forma",
+     "pos": [
+      -8,
+      22,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 19.65,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est1",
+     "asset": "forma",
+     "pos": [
+      -5,
+      9,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 19.8,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est2",
+     "asset": "forma",
+     "pos": [
+      -2,
+      24,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 19.95,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est3",
+     "asset": "forma",
+     "pos": [
+      1,
+      11,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.1,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est4",
+     "asset": "forma",
+     "pos": [
+      4,
+      25,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.25,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est5",
+     "asset": "forma",
+     "pos": [
+      7,
+      13,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.4,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est6",
+     "asset": "forma",
+     "pos": [
+      9,
+      21,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.55,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est7",
+     "asset": "forma",
+     "pos": [
+      -9,
+      15,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.7,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est8",
+     "asset": "forma",
+     "pos": [
+      2,
+      18,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 20.85,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est9",
+     "asset": "forma",
+     "pos": [
+      6,
+      7,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 21.0,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "planeta1",
+     "asset": "forma",
+     "pos": [
+      -3.5,
+      14,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.9,
+       0.9,
+       0.9
+      ],
+      "cor": "#f2c94c",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 21.55
+    },
+    {
+     "id": "planeta2",
+     "asset": "forma",
+     "pos": [
+      5.5,
+      17,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#e8704a",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 21.85
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 18.65,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 19.65,
+       "ate": 22.86
+      },
+      {
+       "clip": "talk",
+       "de": 18.65,
+       "ate": 22.86,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "efeitos": [
+    {
+     "tipo": "pretoebranco",
+     "de": 19.65,
+     "ate": 22.86,
+     "zoom": 1.05
+    }
+   ]
+  },
+  {
+   "inicio": 22.86,
+   "fim": 29.49,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      2,
+      14,
+      -40
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       5,
+       5,
+       5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     },
+     "some": 25.84
+    },
+    {
+     "id": "tc0",
+     "asset": "forma",
+     "pos": [
+      -1.2,
+      0,
+      3
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.55,
+       0.28,
+       0.7
+      ],
+      "cor": "#4f9d4a",
+      "apoiada": true
+     },
+     "aparece": 22.86,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        -1.2,
+        -1.95
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        -3.7,
+        -3.75
+       ]
+      }
+     ]
+    },
+    {
+     "id": "th0",
+     "asset": "forma",
+     "pos": [
+      -1.2,
+      0,
+      2.58
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.2,
+       0.18,
+       0.22
+      ],
+      "cor": "#8aa84a",
+      "apoiada": true
+     },
+     "aparece": 22.86,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        -1.2,
+        -2.37
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        -3.7,
+        -4.17
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tc1",
+     "asset": "forma",
+     "pos": [
+      0.2,
+      0,
+      4
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.55,
+       0.28,
+       0.7
+      ],
+      "cor": "#4f9d4a",
+      "apoiada": true
+     },
+     "aparece": 22.96,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        0.2,
+        -1.5
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        2.4000000000000004,
+        -3.5
+       ]
+      }
+     ]
+    },
+    {
+     "id": "th1",
+     "asset": "forma",
+     "pos": [
+      0.2,
+      0,
+      3.58
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.2,
+       0.18,
+       0.22
+      ],
+      "cor": "#8aa84a",
+      "apoiada": true
+     },
+     "aparece": 22.96,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        0.2,
+        -1.92
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        2.4000000000000004,
+        -3.92
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tc2",
+     "asset": "forma",
+     "pos": [
+      1.6,
+      0,
+      3.4
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.55,
+       0.28,
+       0.7
+      ],
+      "cor": "#4f9d4a",
+      "apoiada": true
+     },
+     "aparece": 23.06,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        1.6,
+        -1.77
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        -0.19999999999999996,
+        -3.65
+       ]
+      }
+     ]
+    },
+    {
+     "id": "th2",
+     "asset": "forma",
+     "pos": [
+      1.6,
+      0,
+      2.98
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.2,
+       0.18,
+       0.22
+      ],
+      "cor": "#8aa84a",
+      "apoiada": true
+     },
+     "aparece": 23.06,
+     "movimentos": [
+      {
+       "de": 23.06,
+       "ate": 25.84,
+       "para": [
+        1.6,
+        -2.19
+       ]
+      },
+      {
+       "de": 25.84,
+       "ate": 29.39,
+       "para": [
+        -0.19999999999999996,
+        -4.07
+       ]
+      }
+     ]
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      3.2,
+      0,
+      4.5
+     ],
+     "giro": -20,
+     "viraPara": [
+      {
+       "em": 22.86,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 23.26,
+       "ate": 29.49
+      },
+      {
+       "clip": "talk",
+       "de": 22.86,
+       "ate": 29.49,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      3.4,
+      11
+     ],
+     "olha": [
+      0,
+      1.2,
+      -2
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      3.0,
+      9.5
+     ],
+     "olha": [
+      0,
+      1.4,
+      -3
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "icone",
+     "icone": "interrogacao",
+     "pos": [
+      0.5,
+      0.36
+     ],
+     "tamanho": 0.18,
+     "pulsa": true,
+     "de": 25.84,
+     "ate": 29.49
+    }
+   ]
+  },
+  {
+   "inicio": 29.49,
+   "fim": 34.78,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      14,
+      -40
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6,
+       6,
+       6
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     }
+    },
+    {
+     "id": "mar",
+     "asset": "forma",
+     "pos": [
+      0,
+      -1.0,
+      -10
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       26,
+       1.4,
+       12
+      ],
+      "cor": "#2d8fd5",
+      "apoiada": true
+     },
+     "opacidade": 0.8,
+     "anim": {
+      "pos": [
+       [
+        29.49,
+        [
+         0,
+         0.0,
+         -10
+        ]
+       ],
+       [
+        30.81,
+        [
+         0,
+         -0.95,
+         -10
+        ]
+       ],
+       [
+        32.13,
+        [
+         0,
+         0.0,
+         -10
+        ]
+       ],
+       [
+        33.46,
+        [
+         0,
+         -0.95,
+         -10
+        ]
+       ],
+       [
+        34.78,
+        [
+         0,
+         0.0,
+         -10
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      -2.2,
+      0,
+      3
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 29.49,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 29.89,
+       "ate": 34.78
+      },
+      {
+       "clip": "talk",
+       "de": 29.49,
+       "ate": 34.78,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.2,
+      9
+     ],
+     "olha": [
+      0,
+      4,
+      -14
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      2.0,
+      7.5
+     ],
+     "olha": [
+      0,
+      4.5,
+      -14
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "seta",
+     "direcao": "cima",
+     "ancora": "mar",
+     "alturaRel": 1.3,
+     "tamanho": 0.16,
+     "pulsa": true,
+     "de": 30.49,
+     "ate": 34.78
+    }
+   ],
+   "transicao": "flash"
+  },
+  {
+   "inicio": 34.78,
+   "fim": 39.35,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      -5,
+      14,
+      -40
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6,
+       6,
+       6
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     },
+     "some": 35.28
+    },
+    {
+     "id": "sol",
+     "asset": "forma",
+     "pos": [
+      4,
+      14,
+      -40
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6,
+       6,
+       6
+      ],
+      "cor": "#ffd84a",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.02
+     },
+     "aparece": 35.38
+    },
+    {
+     "id": "mar",
+     "asset": "forma",
+     "pos": [
+      0,
+      -1.0,
+      -10
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       26,
+       1.4,
+       12
+      ],
+      "cor": "#2d8fd5",
+      "apoiada": true
+     },
+     "opacidade": 0.8,
+     "anim": {
+      "pos": [
+       [
+        34.78,
+        [
+         0,
+         -0.55,
+         -10
+        ]
+       ],
+       [
+        35.92,
+        [
+         0,
+         -0.95,
+         -10
+        ]
+       ],
+       [
+        37.06,
+        [
+         0,
+         -0.55,
+         -10
+        ]
+       ],
+       [
+        38.21,
+        [
+         0,
+         -0.95,
+         -10
+        ]
+       ],
+       [
+        39.35,
+        [
+         0,
+         -0.55,
+         -10
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      -2.2,
+      0,
+      3
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 34.78,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 35.58,
+       "ate": 39.35
+      },
+      {
+       "clip": "talk",
+       "de": 34.78,
+       "ate": 39.35,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.2,
+      9
+     ],
+     "olha": [
+      0,
+      4,
+      -14
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      2.0,
+      7.5
+     ],
+     "olha": [
+      0,
+      4.5,
+      -14
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "seta",
+     "direcao": "cima",
+     "ancora": "mar",
+     "alturaRel": 1.3,
+     "tamanho": 0.09,
+     "pulsa": true,
+     "de": 35.78,
+     "ate": 39.35
+    }
+   ]
+  },
+  {
+   "inicio": 39.35,
+   "fim": 45.26,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "mar",
+     "asset": "forma",
+     "pos": [
+      0,
+      -1.0,
+      -6
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       26,
+       1.4,
+       12
+      ],
+      "cor": "#2d8fd5",
+      "apoiada": true
+     },
+     "opacidade": 0.8,
+     "anim": {
+      "pos": [
+       [
+        39.35,
+        [
+         0,
+         -0.7,
+         -6
+        ]
+       ],
+       [
+        40.53,
+        [
+         0,
+         -0.95,
+         -6
+        ]
+       ],
+       [
+        41.71,
+        [
+         0,
+         -0.7,
+         -6
+        ]
+       ],
+       [
+        42.9,
+        [
+         0,
+         -0.95,
+         -6
+        ]
+       ],
+       [
+        44.08,
+        [
+         0,
+         -0.7,
+         -6
+        ]
+       ],
+       [
+        45.26,
+        [
+         0,
+         -0.95,
+         -6
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "palm",
+     "asset": "palmeira",
+     "pos": [
+      -3.5,
+      0,
+      -2
+     ]
+    },
+    {
+     "id": "arb",
+     "asset": "arbusto",
+     "pos": [
+      3,
+      0,
+      -1
+     ],
+     "variante": "florido"
+    },
+    {
+     "id": "poca",
+     "asset": "forma",
+     "pos": [
+      1.6,
+      0,
+      3.2
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       2.2,
+       0.12,
+       2.2
+      ],
+      "cor": "#3d8ee0",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "carang",
+     "asset": "forma",
+     "pos": [
+      0.6,
+      0,
+      3.8
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.45,
+       0.25,
+       0.35
+      ],
+      "cor": "#d9473a",
+      "apoiada": true
+     },
+     "movimentos": [
+      {
+       "de": 39.85,
+       "ate": 45.06,
+       "para": [
+        2.8,
+        3.0
+       ]
+      }
+     ]
+    }
+   ],
+   "personagens": [
+    {
+     "id": "menina",
+     "preset": "menina",
+     "pos": [
+      -0.9,
+      0,
+      4.6
+     ],
+     "viraPara": [
+      {
+       "em": 39.35,
+       "alvo": [
+        1.6,
+        3.2
+       ]
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "crouch",
+       "de": 39.75,
+       "ate": 45.26
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.2,
+      0,
+      6.2
+     ],
+     "giro": 10,
+     "viraPara": [
+      {
+       "em": 39.35,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 40.35,
+       "ate": 45.26
+      },
+      {
+       "clip": "talk",
+       "de": 39.35,
+       "ate": 45.26,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "enquadrar",
+    "alvo": "poca",
+    "plano": "geral",
+    "angulo": 20,
+    "elevacao": 22,
+    "deriva": -14,
+    "aproxima": 0.85,
+    "fov": 40
+   }
+  },
+  {
+   "inicio": 45.26,
+   "fim": 49.12,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "alga",
+     "asset": "forma",
+     "pos": [
+      0,
+      0.5,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.1,
+       1.1,
+       1.1
+      ],
+      "cor": "#3fa55a",
+      "apoiada": true
+     },
+     "anim": {
+      "pos": [
+       [
+        45.26,
+        [
+         0,
+         0.55,
+         0
+        ]
+       ],
+       [
+        47.0,
+        [
+         0,
+         0.55,
+         0
+        ]
+       ],
+       [
+        49.12,
+        [
+         0.4,
+         0.4,
+         1.5
+        ]
+       ]
+      ],
+      "giro": [
+       [
+        45.26,
+        0
+       ],
+       [
+        47.0,
+        0
+       ],
+       [
+        49.12,
+        140
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "peixe",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.6,
+      0
+     ],
+     "params": {
+      "tipo": "capsula",
+      "tamanho": [
+       0.6,
+       1.2,
+       0.6
+      ],
+      "cor": "#f28c28",
+      "apoiada": true
+     },
+     "anim": {
+      "pos": [
+       [
+        45.26,
+        [
+         0,
+         1.6,
+         0
+        ]
+       ],
+       [
+        47.0,
+        [
+         0,
+         1.6,
+         0
+        ]
+       ],
+       [
+        49.12,
+        [
+         -1.6,
+         0.4,
+         1.5
+        ]
+       ]
+      ],
+      "giro": [
+       [
+        45.26,
+        0
+       ],
+       [
+        47.0,
+        0
+       ],
+       [
+        49.12,
+        -140
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "ave",
+     "asset": "forma",
+     "pos": [
+      0,
+      2.7,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.9,
+       0.9,
+       0.9
+      ],
+      "cor": "#f4f4f4",
+      "apoiada": true
+     },
+     "anim": {
+      "pos": [
+       [
+        45.26,
+        [
+         0,
+         2.7,
+         0
+        ]
+       ],
+       [
+        47.0,
+        [
+         0,
+         2.7,
+         0
+        ]
+       ],
+       [
+        49.12,
+        [
+         2.4,
+         0.4,
+         1.5
+        ]
+       ]
+      ],
+      "giro": [
+       [
+        45.26,
+        0
+       ],
+       [
+        47.0,
+        0
+       ],
+       [
+        49.12,
+        140
+       ]
+      ],
+      "eixo": "z"
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      5
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 45.26,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 47.0,
+       "ate": 49.12
+      },
+      {
+       "clip": "talk",
+       "de": 45.26,
+       "ate": 49.12,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "enquadrar",
+    "alvo": "peixe",
+    "plano": "medio",
+    "angulo": 15,
+    "elevacao": 10,
+    "aproxima": 0.9,
+    "fov": 40
+   },
+   "elementos": [
+    {
+     "tipo": "icone",
+     "icone": "alerta",
+     "ancora": "ave",
+     "alturaRel": 1.5,
+     "tamanho": 0.16,
+     "pulsa": true,
+     "de": 47.0,
+     "ate": 49.12
+    }
+   ],
+   "efeitos": [
+    {
+     "tipo": "pretoebranco",
+     "de": 47.0,
+     "ate": 49.12,
+     "zoom": 1.05
+    }
+   ]
+  },
+  {
+   "inicio": 49.12,
+   "fim": 52.97,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "sol",
+     "asset": "forma",
+     "pos": [
+      0,
+      16.5,
+      -53
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       7,
+       7,
+       7
+      ],
+      "cor": "#ffd84a",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.02
+     }
+    },
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      -10,
+      16.5,
+      -50
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       7,
+       7,
+       7
+      ],
+      "cor": "#2b2b36",
+      "apoiada": false
+     },
+     "movimentos": [
+      {
+       "de": 49.42,
+       "ate": 51.43,
+       "para": [
+        0,
+        -50
+       ]
+      }
+     ],
+     "some": 51.89
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 49.12,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 49.52,
+       "ate": 52.97
+      },
+      {
+       "clip": "talk",
+       "de": 49.12,
+       "ate": 52.97,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "icone",
+     "icone": "proibido",
+     "pos": [
+      0.5,
+      0.4
+     ],
+     "tamanho": 0.2,
+     "pulsa": true,
+     "de": 51.89,
+     "ate": 52.97
+    }
+   ]
+  },
+  {
+   "inicio": 52.97,
+   "fim": 56.1,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        52.97,
+        0
+       ],
+       [
+        56.1,
+        0
+       ]
+      ],
+      "eixo": "z"
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 52.97,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "think",
+       "de": 53.27,
+       "ate": 56.1
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 52.97,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 53.47,
+       "ate": 56.1
+      },
+      {
+       "clip": "talk",
+       "de": 52.97,
+       "ate": 56.1,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      10.6
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      8.8
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   },
+   "transicao": "flash"
+  },
+  {
+   "inicio": 56.1,
+   "fim": 60.68,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        56.1,
+        0
+       ],
+       [
+        57.7,
+        0
+       ],
+       [
+        59.31,
+        23.5
+       ],
+       [
+        60.68,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 56.1,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 56.6,
+       "ate": 60.68
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 56.1,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "nod",
+       "de": 58.85,
+       "ate": 60.68
+      },
+      {
+       "clip": "talk",
+       "de": 56.1,
+       "ate": 60.68,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      9.5
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.4
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   },
+   "textos": [
+    {
+     "texto": "23,5 GRAUS",
+     "de": 57.0,
+     "ate": 60.68,
+     "estilo": "destaque"
+    }
+   ]
+  },
+  {
+   "inicio": 60.68,
+   "fim": 63.45,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        60.68,
+        23.5
+       ],
+       [
+        63.45,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lamp",
+     "asset": "forma",
+     "pos": [
+      -3.2,
+      1.9,
+      0.5
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#ffe066",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "movimentos": [
+      {
+       "de": 60.98,
+       "ate": 63.25,
+       "para": [
+        3.2,
+        0.5
+       ]
+      }
+     ]
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 60.68,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "nod",
+       "de": 61.08,
+       "ate": 63.45
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 60.68,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 61.08,
+       "ate": 63.45
+      },
+      {
+       "clip": "talk",
+       "de": 60.68,
+       "ate": 63.45,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "fluxos": [
+    {
+     "material": "luz",
+     "origem": {
+      "ancora": "lamp",
+      "desloca": [
+       0,
+       0,
+       0
+      ]
+     },
+     "destino": {
+      "ancora": "globo",
+      "desloca": [
+       0,
+       0.8,
+       0
+      ]
+     },
+     "taxa": 22,
+     "dispersao": 0.15,
+     "de": 60.68,
+     "ate": 63.45
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      8.8
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.0
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   }
+  },
+  {
+   "inicio": 63.45,
+   "fim": 68.02,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        63.45,
+        23.5
+       ],
+       [
+        68.02,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      2.0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.5,
+       0.5,
+       0.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pos": [
+       [
+        63.45,
+        [
+         2.0,
+         1.85,
+         0
+        ]
+       ],
+       [
+        64.59,
+        [
+         0,
+         2.4,
+         1.9
+        ]
+       ],
+       [
+        65.73,
+        [
+         -2.0,
+         1.85,
+         0
+        ]
+       ],
+       [
+        66.88,
+        [
+         0,
+         1.3,
+         -1.9
+        ]
+       ],
+       [
+        68.02,
+        [
+         2.0,
+         1.85,
+         0
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 63.45,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 63.85,
+       "ate": 68.02
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 63.45,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "nod",
+       "de": 64.25,
+       "ate": 68.02
+      },
+      {
+       "clip": "talk",
+       "de": 63.45,
+       "ate": 68.02,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "happy"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.4,
+      10.5
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      2.0,
+      9.0
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 40
+   }
+  },
+  {
+   "inicio": 68.02,
+   "fim": 71.88,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        68.02,
+        23.5
+       ],
+       [
+        69.18,
+        10
+       ],
+       [
+        70.34,
+        38
+       ],
+       [
+        71.88,
+        5
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      2.0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.5,
+       0.5,
+       0.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "some": 68.42
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 68.02,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 68.52,
+       "ate": 71.88
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 68.02,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 68.82,
+       "ate": 71.88
+      },
+      {
+       "clip": "talk",
+       "de": 68.02,
+       "ate": 71.88,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      9.5
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.4
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   }
+  },
+  {
+   "inicio": 71.88,
+   "fim": 74.65,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        71.88,
+        5
+       ],
+       [
+        74.65,
+        0
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lamp",
+     "asset": "forma",
+     "pos": [
+      -3.0,
+      1.9,
+      0.5
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#ffe066",
+      "apoiada": false,
+      "emissivo": true
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 71.88,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 72.28,
+       "ate": 74.65
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 71.88,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 72.28,
+       "ate": 74.65
+      },
+      {
+       "clip": "talk",
+       "de": 71.88,
+       "ate": 74.65,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "fluxos": [
+    {
+     "material": "luz",
+     "origem": {
+      "ancora": "lamp",
+      "desloca": [
+       0,
+       0,
+       0
+      ]
+     },
+     "destino": {
+      "ancora": "globo",
+      "desloca": [
+       0,
+       0.2,
+       0
+      ]
+     },
+     "taxa": 22,
+     "dispersao": 0.15,
+     "de": 71.88,
+     "ate": 74.65
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      8.8
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.2
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   }
+  },
+  {
+   "inicio": 74.65,
+   "fim": 78.51,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        74.65,
+        23.5
+       ],
+       [
+        78.51,
+        80
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lamp",
+     "asset": "forma",
+     "pos": [
+      -3.0,
+      1.9,
+      0.5
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#ffe066",
+      "apoiada": false,
+      "emissivo": true
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 74.65,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 75.05,
+       "ate": 78.51
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 74.65,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 75.25,
+       "ate": 78.51
+      },
+      {
+       "clip": "talk",
+       "de": 74.65,
+       "ate": 78.51,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "fluxos": [
+    {
+     "material": "fogo",
+     "origem": {
+      "ancora": "globo",
+      "desloca": [
+       -0.9,
+       0.8,
+       0.2
+      ]
+     },
+     "taxa": 30,
+     "de": 74.65,
+     "ate": 78.51
+    },
+    {
+     "material": "neve",
+     "origem": {
+      "ancora": "globo",
+      "desloca": [
+       0.9,
+       3.0,
+       0.2
+      ]
+     },
+     "destino": {
+      "ancora": "globo",
+      "desloca": [
+       0.9,
+       0.9,
+       0.2
+      ]
+     },
+     "taxa": 30,
+     "dispersao": 0.5,
+     "de": 74.65,
+     "ate": 78.51
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      8.8
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.0
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   }
+  },
+  {
+   "inicio": 78.51,
+   "fim": 81.64,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        78.51,
+        23.5
+       ],
+       [
+        81.64,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 78.51,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 78.91,
+       "ate": 81.64
+      }
+     ]
+    },
+    {
+     "id": "engenheiro",
+     "preset": "engenheiro",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 78.51,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 79.11,
+       "ate": 81.64
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      2.6
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 78.51,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "think",
+       "de": 78.71,
+       "ate": 81.64
+      },
+      {
+       "clip": "talk",
+       "de": 78.51,
+       "ate": 81.64,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      10
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      8.2
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   },
+   "elementos": [
+    {
+     "tipo": "icone",
+     "icone": "interrogacao",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "tamanho": 0.16,
+     "pulsa": true,
+     "de": 79.01,
+     "ate": 81.64
+    }
+   ]
+  },
+  {
+   "inicio": 81.64,
+   "fim": 86.21,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6.5,
+       6.5,
+       6.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     },
+     "movimentos": [
+      {
+       "de": 81.94,
+       "ate": 86.21,
+       "para": [
+        0,
+        -66
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 81.64,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 81.84,
+       "ate": 86.21
+      },
+      {
+       "clip": "talk",
+       "de": 81.64,
+       "ate": 86.21,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "icone",
+     "icone": "exclamacao",
+     "pos": [
+      0.78,
+      0.32
+     ],
+     "tamanho": 0.14,
+     "pulsa": true,
+     "de": 82.24,
+     "ate": 86.21
+    }
+   ],
+   "transicao": "flash"
+  },
+  {
+   "inicio": 86.21,
+   "fim": 90.07,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -66
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6.5,
+       6.5,
+       6.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     },
+     "movimentos": [
+      {
+       "de": 86.41,
+       "ate": 90.07,
+       "para": [
+        0,
+        -74
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "menina",
+     "preset": "menina",
+     "pos": [
+      -0.9,
+      0,
+      0.6
+     ],
+     "viraPara": [
+      {
+       "em": 86.21,
+       "alvo": [
+        0,
+        -60
+       ]
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "point",
+       "de": 86.51,
+       "ate": 90.07
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0.9,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 86.21,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "talk",
+       "de": 86.21,
+       "ate": 90.07,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   },
+   "textos": [
+    {
+     "texto": "3,8 CM POR ANO",
+     "de": 86.71,
+     "ate": 90.07,
+     "estilo": "destaque"
+    }
+   ]
+  },
+  {
+   "inicio": 90.07,
+   "fim": 95.98,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "campo",
+    "chao": "grama"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      0,
+      15.5,
+      -74
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       6.5,
+       6.5,
+       6.5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "escala": [
+       [
+        90.07,
+        1.0
+       ],
+       [
+        95.98,
+        0.88
+       ]
+      ]
+     },
+     "movimentos": [
+      {
+       "de": 90.07,
+       "ate": 95.98,
+       "para": [
+        0,
+        -80
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pin1",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      -6,
+      0,
+      -3
+     ]
+    },
+    {
+     "id": "pin2",
+     "asset": "arvore_pinheiro",
+     "pos": [
+      7,
+      0,
+      -6
+     ],
+     "variante": "alta"
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 90.07,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 90.37,
+       "ate": 95.98
+      },
+      {
+       "clip": "talk",
+       "de": 90.07,
+       "ate": 95.98,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      1.6,
+      9.5
+     ],
+     "olha": [
+      0,
+      5,
+      -52
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.6,
+      8.0
+     ],
+     "olha": [
+      0,
+      6.2,
+      -52
+     ]
+    }
+   }
+  },
+  {
+   "inicio": 95.98,
+   "fim": 99.02,
+   "ambiente": {
+    "horario": "dia",
+    "fundo": "interior",
+    "chao": "madeira"
+   },
+   "objetos": [
+    {
+     "id": "mesa",
+     "asset": "forma",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       2.2,
+       0.9,
+       1.6
+      ],
+      "cor": "#a9743f",
+      "apoiada": true
+     }
+    },
+    {
+     "id": "globo",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       1.7,
+       1.7,
+       1.7
+      ],
+      "cor": "#2f7fd6",
+      "apoiada": false
+     },
+     "anim": {
+      "oscila": {
+       "eixo": "y",
+       "amp": 0.03,
+       "freq": 0.4
+      }
+     }
+    },
+    {
+     "id": "pino",
+     "asset": "forma",
+     "pos": [
+      0,
+      1.85,
+      0
+     ],
+     "params": {
+      "tipo": "cilindro",
+      "tamanho": [
+       0.07,
+       2.6,
+       0.07
+      ],
+      "cor": "#d9473a",
+      "apoiada": false
+     },
+     "anim": {
+      "giro": [
+       [
+        95.98,
+        23.5
+       ],
+       [
+        99.02,
+        23.5
+       ]
+      ],
+      "eixo": "z"
+     }
+    },
+    {
+     "id": "lamp",
+     "asset": "forma",
+     "pos": [
+      -3.0,
+      1.9,
+      0.5
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#ffe066",
+      "apoiada": false,
+      "emissivo": true
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "eng",
+     "preset": "engenheira",
+     "pos": [
+      -1.3,
+      0,
+      0.9
+     ],
+     "viraPara": [
+      {
+       "em": 95.98,
+       "alvo": "globo"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 98.2,
+       "ate": 99.02
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      1.3,
+      0,
+      0.9
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 95.98,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shake_head",
+       "de": 98.2,
+       "ate": 99.02
+      },
+      {
+       "clip": "talk",
+       "de": 95.98,
+       "ate": 99.02,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ]
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "travelling",
+    "de": {
+     "pos": [
+      0,
+      2.0,
+      8.8
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "para": {
+     "pos": [
+      0,
+      1.8,
+      7.2
+     ],
+     "olha": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    "fov": 38
+   },
+   "elementos": [
+    {
+     "tipo": "seta",
+     "direcao": "direita",
+     "ancora": "globo",
+     "alturaRel": 1.4,
+     "tamanho": 0.16,
+     "de": 95.98,
+     "ate": 99.02
+    },
+    {
+     "tipo": "icone",
+     "icone": "x",
+     "ancora": "globo",
+     "alturaRel": 1.4,
+     "tamanho": 0.18,
+     "pulsa": true,
+     "de": 98.2,
+     "ate": 99.02
+    }
+   ],
+   "transicao": "flash"
+  },
+  {
+   "inicio": 99.02,
+   "fim": 103.23,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "mar",
+     "asset": "forma",
+     "pos": [
+      0,
+      -1.0,
+      -8
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       26,
+       1.4,
+       12
+      ],
+      "cor": "#2d8fd5",
+      "apoiada": true
+     },
+     "opacidade": 0.8,
+     "anim": {
+      "pos": [
+       [
+        99.02,
+        [
+         0,
+         -0.7,
+         -8
+        ]
+       ],
+       [
+        100.42,
+        [
+         0,
+         -0.95,
+         -8
+        ]
+       ],
+       [
+        101.83,
+        [
+         0,
+         -0.7,
+         -8
+        ]
+       ],
+       [
+        103.23,
+        [
+         0,
+         -0.95,
+         -8
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "est0",
+     "asset": "forma",
+     "pos": [
+      -8,
+      22,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.02,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est1",
+     "asset": "forma",
+     "pos": [
+      -5,
+      9,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.17,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est2",
+     "asset": "forma",
+     "pos": [
+      -2,
+      24,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.32,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est3",
+     "asset": "forma",
+     "pos": [
+      1,
+      11,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.47,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est4",
+     "asset": "forma",
+     "pos": [
+      4,
+      25,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.62,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est5",
+     "asset": "forma",
+     "pos": [
+      7,
+      13,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.77,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est6",
+     "asset": "forma",
+     "pos": [
+      9,
+      21,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 99.92,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est7",
+     "asset": "forma",
+     "pos": [
+      -9,
+      15,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 100.07,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "est8",
+     "asset": "forma",
+     "pos": [
+      2,
+      18,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "cor": "#ffffff",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 100.22,
+     "anim": {
+      "pulsa": 0.15
+     }
+    },
+    {
+     "id": "planeta1",
+     "asset": "forma",
+     "pos": [
+      -3.5,
+      14,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.9,
+       0.9,
+       0.9
+      ],
+      "cor": "#f2c94c",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 100.92
+    },
+    {
+     "id": "planeta2",
+     "asset": "forma",
+     "pos": [
+      5.5,
+      17,
+      -52
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       0.8,
+       0.8,
+       0.8
+      ],
+      "cor": "#e8704a",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "aparece": 101.22
+    }
+   ],
+   "personagens": [
+    {
+     "id": "menina",
+     "preset": "menina",
+     "pos": [
+      -0.9,
+      0,
+      3.2
+     ],
+     "viraPara": [
+      {
+       "em": 99.02,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "surprised",
+       "de": 99.42,
+       "ate": 103.23
+      }
+     ]
+    },
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0.9,
+      0,
+      3.2
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 99.02,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "shrug",
+       "de": 99.62,
+       "ate": 103.23
+      },
+      {
+       "clip": "talk",
+       "de": 99.02,
+       "ate": 103.23,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "worried"
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "enquadrar",
+    "alvo": "guia",
+    "plano": "medio",
+    "angulo": 8,
+    "elevacao": 6,
+    "aproxima": 0.9,
+    "fov": 40
+   },
+   "efeitos": [
+    {
+     "tipo": "pretoebranco",
+     "de": 99.02,
+     "ate": 103.23,
+     "zoom": 1.05
+    }
+   ]
+  },
+  {
+   "inicio": 103.23,
+   "fim": 110.0,
+   "ambiente": {
+    "horario": "tarde",
+    "fundo": "litoral",
+    "chao": "areia"
+   },
+   "objetos": [
+    {
+     "id": "lua",
+     "asset": "forma",
+     "pos": [
+      3,
+      13,
+      -40
+     ],
+     "params": {
+      "tipo": "esfera",
+      "tamanho": [
+       5,
+       5,
+       5
+      ],
+      "cor": "#f4f1e2",
+      "apoiada": false,
+      "emissivo": true
+     },
+     "anim": {
+      "pulsa": 0.03
+     }
+    },
+    {
+     "id": "mar",
+     "asset": "forma",
+     "pos": [
+      0,
+      -1.0,
+      -9
+     ],
+     "params": {
+      "tipo": "caixa",
+      "tamanho": [
+       26,
+       1.4,
+       12
+      ],
+      "cor": "#2d8fd5",
+      "apoiada": true
+     },
+     "opacidade": 0.8,
+     "anim": {
+      "pos": [
+       [
+        103.23,
+        [
+         0,
+         -0.1,
+         -9
+        ]
+       ],
+       [
+        104.48,
+        [
+         0,
+         -0.95,
+         -9
+        ]
+       ],
+       [
+        105.74,
+        [
+         0,
+         -0.1,
+         -9
+        ]
+       ],
+       [
+        106.99,
+        [
+         0,
+         -0.95,
+         -9
+        ]
+       ],
+       [
+        108.25,
+        [
+         0,
+         -0.1,
+         -9
+        ]
+       ],
+       [
+        109.5,
+        [
+         0,
+         -0.95,
+         -9
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "personagens": [
+    {
+     "id": "guia",
+     "preset": "construtor",
+     "pos": [
+      0,
+      0,
+      3
+     ],
+     "giro": 0,
+     "viraPara": [
+      {
+       "em": 103.23,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "cheer",
+       "de": 103.43,
+       "ate": 107.8
+      },
+      {
+       "clip": "talk",
+       "de": 103.23,
+       "ate": 109.5,
+       "fala": true,
+       "camada": 1,
+       "mascara": [
+        "head",
+        "face"
+       ],
+       "expressao": "happy"
+      }
+     ]
+    },
+    {
+     "id": "menina",
+     "preset": "menina",
+     "pos": [
+      -1.4,
+      0,
+      3.6
+     ],
+     "viraPara": [
+      {
+       "em": 103.23,
+       "alvo": "camera"
+      }
+     ],
+     "acoes": [
+      {
+       "clip": "cheer",
+       "de": 103.63,
+       "ate": 109.5
+      }
+     ]
+    }
+   ],
+   "camera": {
+    "tipo": "enquadrar",
+    "alvo": "guia",
+    "plano": "medio",
+    "angulo": 0,
+    "elevacao": 6,
+    "aproxima": 0.9,
+    "fov": 40
+   },
+   "textos": [
+    {
+     "texto": "SENTIRIA MAIS FALTA DA LUA NAS NOITES OU NO MAR?",
+     "de": 103.53,
+     "ate": 109.5,
+     "estilo": "pergunta"
+    }
+   ]
+  }
+ ]
+}

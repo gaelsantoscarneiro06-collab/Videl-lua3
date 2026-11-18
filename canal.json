@@ -1,0 +1,35 @@
+{
+  "nomeCanal": "Como Funciona 3D",
+  "idioma": "pt-BR",
+  "nicho": "ciência e curiosidades do cotidiano em animação 3D",
+  "tom": "curioso, direto e amigável; frases curtas; fala com o espectador na segunda pessoa (\"você\")",
+  "estiloNarracao": "narrador único, ritmo rápido, sem cumprimentos",
+  "elenco": {
+    "guia": "construtor",
+    "especialista": "engenheira",
+    "ajudante": "engenheiro",
+    "curiosos": [
+      "menina",
+      "homem",
+      "velhinho",
+      "crianca"
+    ]
+  },
+  "estiloVisual": {
+    "horario": "dia",
+    "chao": "grama",
+    "regra": "cenários simples e limpos; um objeto principal por cena; personagens sempre com a mesma roupa por papel"
+  },
+  "mecanismoUnico": "uma pergunta do tipo \"e se...?\" respondida passo a passo, cada consequência criando o problema da próxima",
+  "abertura": "sempre uma pergunta intrigante ou uma crença que quase todo mundo tem errada, escrita na tela no instante 0",
+  "fechamento": "paga o gancho em uma frase e termina com UMA pergunta fácil de responder para comentar; pede o vídeo relacionado",
+  "capa": "personagem em close com expressão exagerada e um objeto do tema; pergunta curta de até 6 palavras",
+  "postagem": {
+    "hashtagsFixas": [
+      "#shorts"
+    ],
+    "videoRelacionado": "",
+    "linkFixo": ""
+  },
+  "duracaoPadraoSegundos": 110
+}
